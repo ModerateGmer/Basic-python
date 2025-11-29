@@ -38,6 +38,10 @@ A commit is a snapshot of your Git repository at one point in time. Watch this b
 ```
 A git branch is an independent line of development taken from the same source code. Separate branches can be merged into one branch. The diagram below illustrates how development can take place in parallel using branches. Multiple development projects are taking place using the same source code.
 ```
+##Link to GitHub
+```
+git remote add origin [Link respository of GitHub]
+```
 ## git push
 ```
 git push is a fundamental Git command used to upload local repository content to a remote repository. It effectively transfers commits from your local machine to a remote server, such as GitHub, GitLab, or a self-hosted Git server. 
